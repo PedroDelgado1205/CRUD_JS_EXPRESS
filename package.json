@@ -1,15 +1,21 @@
 {
-  "name": "crud_js_express",
+  "name": "crud",
   "version": "1.0.0",
-  "description": "trabajo_13",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/JS/main.js",
+    "dev": "nodemon src/JS/main.js"
   },
-  "keywords": [
-    "crud",
-    "js"
-  ],
-  "author": "Pedro Delgado",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
 }
