@@ -1,0 +1,15 @@
+{
+  "name": "crud_js_express",
+  "version": "1.0.0",
+  "description": "trabajo_13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud",
+    "js"
+  ],
+  "author": "Pedro Delgado",
+  "license": "ISC"
+}
