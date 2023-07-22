@@ -3,7 +3,7 @@
 
     <table class="table-fixed w-full">
       <thead>
-        <tr class="bg-red-500 text-white">
+        <tr class="bg-red-700 text-white">
           <th class="w-20 py-4 ...">ID</th>
           <th class="w-1/4 py-4 ...">Title</th>
           <th class="w-1/2 py-4 ...">Description</th>
@@ -19,10 +19,10 @@
           <td class="p-3 flex">
             <form action="/tasks/delete" method="POST" class="mx-2">
               <input type="hidden" value="{{id}}" name="id">
-              <button class="bg-red-500 text-white px-3 py-1 rounded-sm" type="submit">
+              <button class="bg-red-600 text-white px-3 py-1 rounded-sm" type="submit">
                 <i class="fas fa-trash"></i></button>
             </form>
-            <a href="/tasks/edit/{{id}}" class="bg-red-500 text-white px-3 py-1 rounded-sm">
+            <a href="/tasks/edit/{{id}}" class="bg-red-600 text-white px-3 py-1 rounded-sm">
               <i class="fas fa-pen"></i></a>
           </td>
         </tr>
